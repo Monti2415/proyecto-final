@@ -1,5 +1,5 @@
 //funciones para enviar objetos al array
-import { agregarAlCarrito } from "./funcionescarrito.js";
+import { agregarAlCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js";
 
