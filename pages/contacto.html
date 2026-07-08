@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,12 +13,19 @@
   <body>
     <header>
       <div class="div-logo">
-        <a href="../index.html" class="logo">LOGO </a>
+        <a class="logo" href="../index.html">LOGO</a>
       </div>
+
       <nav class="header-nav">
         <ul>
           <li><a href="../index.html">Inicio</a></li>
           <li><a href="./contacto.html">Contacto</a></li>
+
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -53,5 +60,6 @@
         </ul>
       </nav>
     </footer>
+    <script type="module" src="../js/carrito.js"></script>
   </body>
 </html>

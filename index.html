@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,12 +13,17 @@
   <body>
     <header>
       <div class="div-logo">
-        <a class="logo" href="./index.html">LOGO </a>
+        <a class="logo" href="./index.html">La Cueva Gamer</a>
       </div>
       <nav class="header-nav">
         <ul>
           <li><a href="./index.html">Inicio</a></li>
           <li><a href="./pages/contacto.html">Contacto</a></li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒 <span id="contador-carrito">0</span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -34,9 +39,9 @@
         <h2 class="titulo-productos text-secondary">
           Nuestros Juegos disponibles
         </h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/Borderlands 4.jpg" alt="imagen borderlands 4" />
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+          <!--<article class="card text-dark"> 
+            <img src="./img/borderlands-4.jpg" alt="imagen borderlands 4" />
             <h3>Borderlands 4</h3>
             <p>Descubre el emocionante mundo de Borderlands 4.</p>
             <p>Precio: $69.99</p>
@@ -46,7 +51,7 @@
           </article>
 
           <article class="card text-dark">
-            <img src="./img/Repo.jpg" alt="imagen repo" />
+            <img src="./img/repo.jpg" alt="imagen repo" />
             <h3>Repo</h3>
             <p>averigua que cosas esconde el mundo de Repo.</p>
             <p>Precio: $4.99</p>
@@ -56,7 +61,7 @@
           </article>
 
           <article class="card text-dark">
-            <img src="./img/subnautica 2.jpg" alt="imagen subnautica 2" />
+            <img src="./img/subnautica-2.jpg" alt="imagen subnautica 2" />
             <h3>Subnautica 2</h3>
             <p>
               Explora lo desconocido para descubrir los misterios ocultos bajo
@@ -69,7 +74,7 @@
           </article>
 
           <article class="card text-dark">
-            <img src="./img/Minecraft.jpg" alt="imagen minecraft" />
+            <img src="./img/minecraft.jpg" alt="imagen minecraft" />
             <h3>Minecraft</h3>
             <p>
               Construye, explora y sobrevive en un mundo de bloques infinito.
@@ -81,7 +86,7 @@
           </article>
 
           <article class="card text-dark">
-            <img src="./img/Devil May Cry 5.jpg" alt="imagen devil may cry 5" />
+            <img src="./img/devil-may-cry-5.jpg" alt="imagen devil may cry 5" />
             <h3>Devil May Cry 5</h3>
             <p>
               Experimenta la acción desenfrenada de Dante, Nero y V en este
@@ -94,14 +99,14 @@
           </article>
 
           <article class="card text-dark">
-            <img src="./img/Ready or Not.jpg" alt="imagen ready or not" />
+            <img src="./img/ready-or-not.jpg" alt="imagen ready or not" />
             <h3>Ready or Not</h3>
             <p>Prepárate para el desafío en este juego de estrategia.</p>
             <p>Precio: $32.99</p>
             <button class="btn bg-secondary text-dark">
               Agregar al carrito
             </button>
-          </article>
+          </article> -->
         </div>
       </section>
     </main>
@@ -116,5 +121,6 @@
         </ul>
       </nav>
     </footer>
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>

@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "nombre": "Borderlands 4",
+    "plataforma": "PC",
+    "genero": "Shooter",
+    "precio": 69.99,
+    "stock": 15,
+    "imagen": "./img/borderlands-4.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Repo",
+    "plataforma": "PC",
+    "genero": "Terror Cooperativo",
+    "precio": 4.99,
+    "stock": 20,
+    "imagen": "./img/repo.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Subnautica 2",
+    "plataforma": "PC",
+    "genero": "Supervivencia",
+    "precio": 20.99,
+    "stock": 12,
+    "imagen": "./img/subnautica-2.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Minecraft",
+    "plataforma": "PC",
+    "genero": "Sandbox",
+    "precio": 29.99,
+    "stock": 30,
+    "imagen": "./img/minecraft.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Devil May Cry 5",
+    "plataforma": "PC",
+    "genero": "Acción",
+    "precio": 23.0,
+    "stock": 10,
+    "imagen": "./img/devil-may-cry-5.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Ready or Not",
+    "plataforma": "PC",
+    "genero": "Shooter Táctico",
+    "precio": 32.99,
+    "stock": 18,
+    "imagen": "./img/ready-or-not.jpg"
+  }
+]

@@ -16,7 +16,7 @@ body {
 
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 main {
@@ -55,7 +55,7 @@ h2 {
   padding: 1.5rem 3rem;
   border-radius: 1rem;
 
-  background-color: #39ff14;
+  background-color: #00b0ff;
   color: #000;
   cursor: pointer;
   transition: 0.3s;
@@ -112,7 +112,7 @@ footer .footer-list {
   padding: 0.5rem;
 }
 
-/*COLOES*/
+/*COLORES*/
 
 .bg-primary {
   background-color: #333;
@@ -173,12 +173,13 @@ footer .footer-list {
 
 /*CONTACTO*/
 .titulo-contacto {
-  margin-top: 2rem 0;
+  margin: 2rem 0;
 }
 
 .form-contacto {
-  background-color: #8a79a8;
-  color: #2a1e35;
+  background-color: #161616;
+  color: #e5e5e5;
+  border: 2px solid #39ff14;
   width: 100%;
   max-width: 50rem;
   font-size: 2rem;
@@ -199,7 +200,8 @@ footer .footer-list {
 .grupo-input textarea {
   border: none;
   background-color: transparent;
-  border-bottom: solid 2px #2a1e35;
+  color: #e5e5e5;
+  border-bottom: solid 2px #39ff14;
   margin-bottom: 3rem;
 }
 
