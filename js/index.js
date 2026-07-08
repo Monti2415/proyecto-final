@@ -17,7 +17,7 @@ const renderizarProductos = () => {
                 tarjeta.classList.add("card", "text-dark");
 
                 const imagen = document.createElement("img");
-                imagen.src = `./${producto.imagen}`;
+                imagen.src = producto.imagen;
                 imagen.alt = producto.nombre;
 
                 const titulo = document.createElement("h3");
